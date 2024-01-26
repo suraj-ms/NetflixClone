@@ -1,23 +1,23 @@
-.banner{
+.banner {
     object-fit: contain;
     height: 448px;
     margin-bottom: 30px;
 }
 
-.banner_contents{
+.banner_contents {
     margin-left: 30px;
     padding: 140px;
     height: 190px;
 }
 
-.banner_title{
+.banner_title {
     font-size: 3rem;
     font-weight: 800;
     padding-bottom: 0.3rem;
 }
 
 
-.banner_button{
+.banner_button {
     cursor: pointer;
     color: #fff;
     outline: none;
@@ -29,13 +29,13 @@
     background-color: rgba(51, 51, 51, 0.5);
 }
 
-.banner_button:hover{
+.banner_button:hover {
     color: #000;
     background-color: #e6e6e6;
     transition: all 0.2s
 }
 
-.banner_description{
+.banner_description {
     width: 75%;
     line-height: 1.3;
     padding-top: 1rem;
@@ -44,21 +44,22 @@
     height: 80px;
 }
 
-.banner__fadeBottom{
+.banner__fadeBottom {
     height: 7.4rem;
     background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
     transform: translateY(-115px);
 }
 
 @media only screen and (max-width: 600px) {
-    .banner_contents{
+    .banner_contents {
         margin-left: -13px;
-    padding: 40px;
-    height: 366px;
+        padding: 40px;
+        height: 366px;
+        width: 90%;
     }
 
-    .banner_title{
+    .banner_title {
         margin-top: 150px;
         font-size: 2rem;
     }
-  }
+}
