@@ -2,7 +2,7 @@ import React from 'react'
 import Row from './Components/Row/Row'
 import Banner from './Components/Banner/Banner'
 import Navbar from './Components/Navbar/Navbar'
-import requests from './Request'
+import requests from './request'
 import './App.css'
 
 function App() {
