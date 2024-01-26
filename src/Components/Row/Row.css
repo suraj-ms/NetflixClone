@@ -37,3 +37,16 @@
 .trailer iframe{
     width: 100%;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .row{
+        margin-left: 10px;
+    }
+
+    .row__posters{
+        padding: 20px 5px 40px 5px;
+    }
+    
+
+}
